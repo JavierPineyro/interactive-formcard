@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  border: 1px solid #929292ba;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf');
+  font-weight: 500;
+}
