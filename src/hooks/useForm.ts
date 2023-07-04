@@ -25,8 +25,6 @@ export function useForm() {
     evt.preventDefault()
     if (isThereAnError) return
 
-    // Realizar otras acciones con los datos del formulario
-    console.log('SUBMITED')
     onToggle()
   }, [])
 
