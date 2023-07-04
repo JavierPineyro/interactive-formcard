@@ -59,3 +59,7 @@ To run tests, run the following command
 - Responsive design
 - Unit testing
 
+### Thank you to Readme.so
+
+Readme created with [Readme.so](https://readme.so). Check it out!
+
