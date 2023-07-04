@@ -6,6 +6,12 @@ describe('Error Label component -->', () => {
     render(<ErrorLabel>Invalid input</ErrorLabel>)
     expect(screen.getByText('Invalid input')).toBeDefined()
   })
+
+  it('Function should return 0', () => {
+    const fun = vi.fn(() => 0)
+    fun()
+    expect(fun()).toEqual(0)
+  })
 })
 
 /*
